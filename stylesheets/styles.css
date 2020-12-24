@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c8dce7;
+  color: #000;
+  font-family: 'Poppins';
+  padding: 14em 14em 14em 20em;
+}
+
+.main-image {
+  position: absolute;
+  z-index: -10;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3em;
+  border-radius: 3em;
+  position: relative;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border: solid 2px transparent;
+  background-clip: padding-box;
+  -webkit-box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+          box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.container h2 {
+  font-size: 1.75rem;
+}
+
+.main-heading {
+  font-size: 4rem;
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+/*# sourceMappingURL=styles.css.map */
